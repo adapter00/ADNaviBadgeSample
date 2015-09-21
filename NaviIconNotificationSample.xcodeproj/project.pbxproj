@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8206259A1BAD06F700327BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820625991BAD06F700327BBD /* AppDelegate.swift */; };
+		8206259C1BAD06F700327BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8206259B1BAD06F700327BBD /* ViewController.swift */; };
+		8206259F1BAD06F700327BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8206259D1BAD06F700327BBD /* Main.storyboard */; };
+		820625A11BAD06F700327BBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820625A01BAD06F700327BBD /* Images.xcassets */; };
+		820625A41BAD06F700327BBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 820625A21BAD06F700327BBD /* LaunchScreen.xib */; };
+		820625B01BAD06F700327BBD /* NaviIconNotificationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820625AF1BAD06F700327BBD /* NaviIconNotificationSampleTests.swift */; };
+		820625BA1BAD0A2900327BBD /* ADNaviBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820625B91BAD0A2800327BBD /* ADNaviBadge.swift */; };
+		820625BC1BAF217400327BBD /* bulb_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 820625BB1BAF217400327BBD /* bulb_off@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820625AA1BAD06F700327BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8206258C1BAD06F700327BBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820625931BAD06F700327BBD;
+			remoteInfo = NaviIconNotificationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		820625941BAD06F700327BBD /* NaviIconNotificationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviIconNotificationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820625981BAD06F700327BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820625991BAD06F700327BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8206259B1BAD06F700327BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8206259E1BAD06F700327BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		820625A01BAD06F700327BBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		820625A31BAD06F700327BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		820625A91BAD06F700327BBD /* NaviIconNotificationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviIconNotificationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820625AE1BAD06F700327BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820625AF1BAD06F700327BBD /* NaviIconNotificationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviIconNotificationSampleTests.swift; sourceTree = "<group>"; };
+		820625B91BAD0A2800327BBD /* ADNaviBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNaviBadge.swift; sourceTree = "<group>"; };
+		820625BB1BAF217400327BBD /* bulb_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bulb_off@2x.png"; path = "../bulb_off@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820625911BAD06F700327BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820625A61BAD06F700327BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8206258B1BAD06F700327BBD = {
+			isa = PBXGroup;
+			children = (
+				820625961BAD06F700327BBD /* NaviIconNotificationSample */,
+				820625AC1BAD06F700327BBD /* NaviIconNotificationSampleTests */,
+				820625951BAD06F700327BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820625951BAD06F700327BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820625941BAD06F700327BBD /* NaviIconNotificationSample.app */,
+				820625A91BAD06F700327BBD /* NaviIconNotificationSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820625961BAD06F700327BBD /* NaviIconNotificationSample */ = {
+			isa = PBXGroup;
+			children = (
+				820625BB1BAF217400327BBD /* bulb_off@2x.png */,
+				820625991BAD06F700327BBD /* AppDelegate.swift */,
+				8206259B1BAD06F700327BBD /* ViewController.swift */,
+				8206259D1BAD06F700327BBD /* Main.storyboard */,
+				820625A01BAD06F700327BBD /* Images.xcassets */,
+				820625A21BAD06F700327BBD /* LaunchScreen.xib */,
+				820625971BAD06F700327BBD /* Supporting Files */,
+				820625B91BAD0A2800327BBD /* ADNaviBadge.swift */,
+			);
+			path = NaviIconNotificationSample;
+			sourceTree = "<group>";
+		};
+		820625971BAD06F700327BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820625981BAD06F700327BBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		820625AC1BAD06F700327BBD /* NaviIconNotificationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				820625AF1BAD06F700327BBD /* NaviIconNotificationSampleTests.swift */,
+				820625AD1BAD06F700327BBD /* Supporting Files */,
+			);
+			path = NaviIconNotificationSampleTests;
+			sourceTree = "<group>";
+		};
+		820625AD1BAD06F700327BBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820625AE1BAD06F700327BBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820625931BAD06F700327BBD /* NaviIconNotificationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820625B31BAD06F700327BBD /* Build configuration list for PBXNativeTarget "NaviIconNotificationSample" */;
+			buildPhases = (
+				820625901BAD06F700327BBD /* Sources */,
+				820625911BAD06F700327BBD /* Frameworks */,
+				820625921BAD06F700327BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviIconNotificationSample;
+			productName = NaviIconNotificationSample;
+			productReference = 820625941BAD06F700327BBD /* NaviIconNotificationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		820625A81BAD06F700327BBD /* NaviIconNotificationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820625B61BAD06F700327BBD /* Build configuration list for PBXNativeTarget "NaviIconNotificationSampleTests" */;
+			buildPhases = (
+				820625A51BAD06F700327BBD /* Sources */,
+				820625A61BAD06F700327BBD /* Frameworks */,
+				820625A71BAD06F700327BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820625AB1BAD06F700327BBD /* PBXTargetDependency */,
+			);
+			name = NaviIconNotificationSampleTests;
+			productName = NaviIconNotificationSampleTests;
+			productReference = 820625A91BAD06F700327BBD /* NaviIconNotificationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8206258C1BAD06F700327BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = adapter00;
+				TargetAttributes = {
+					820625931BAD06F700327BBD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					820625A81BAD06F700327BBD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 820625931BAD06F700327BBD;
+					};
+				};
+			};
+			buildConfigurationList = 8206258F1BAD06F700327BBD /* Build configuration list for PBXProject "NaviIconNotificationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8206258B1BAD06F700327BBD;
+			productRefGroup = 820625951BAD06F700327BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820625931BAD06F700327BBD /* NaviIconNotificationSample */,
+				820625A81BAD06F700327BBD /* NaviIconNotificationSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820625921BAD06F700327BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8206259F1BAD06F700327BBD /* Main.storyboard in Resources */,
+				820625A41BAD06F700327BBD /* LaunchScreen.xib in Resources */,
+				820625BC1BAF217400327BBD /* bulb_off@2x.png in Resources */,
+				820625A11BAD06F700327BBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820625A71BAD06F700327BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820625901BAD06F700327BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8206259C1BAD06F700327BBD /* ViewController.swift in Sources */,
+				820625BA1BAD0A2900327BBD /* ADNaviBadge.swift in Sources */,
+				8206259A1BAD06F700327BBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820625A51BAD06F700327BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820625B01BAD06F700327BBD /* NaviIconNotificationSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820625AB1BAD06F700327BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820625931BAD06F700327BBD /* NaviIconNotificationSample */;
+			targetProxy = 820625AA1BAD06F700327BBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8206259D1BAD06F700327BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8206259E1BAD06F700327BBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		820625A21BAD06F700327BBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820625A31BAD06F700327BBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820625B11BAD06F700327BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		820625B21BAD06F700327BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820625B41BAD06F700327BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaviIconNotificationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		820625B51BAD06F700327BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaviIconNotificationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		820625B71BAD06F700327BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaviIconNotificationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaviIconNotificationSample.app/NaviIconNotificationSample";
+			};
+			name = Debug;
+		};
+		820625B81BAD06F700327BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaviIconNotificationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaviIconNotificationSample.app/NaviIconNotificationSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8206258F1BAD06F700327BBD /* Build configuration list for PBXProject "NaviIconNotificationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820625B11BAD06F700327BBD /* Debug */,
+				820625B21BAD06F700327BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820625B31BAD06F700327BBD /* Build configuration list for PBXNativeTarget "NaviIconNotificationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820625B41BAD06F700327BBD /* Debug */,
+				820625B51BAD06F700327BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		820625B61BAD06F700327BBD /* Build configuration list for PBXNativeTarget "NaviIconNotificationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820625B71BAD06F700327BBD /* Debug */,
+				820625B81BAD06F700327BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8206258C1BAD06F700327BBD /* Project object */;
+}
